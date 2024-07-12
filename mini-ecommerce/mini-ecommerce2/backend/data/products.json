@@ -1,0 +1,71 @@
+[{
+  "productName":"Laptop 1",
+  "price":2236,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 2",
+  "price":1244,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 3",
+  "price":9102,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 4",
+  "price":2652,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 5",
+  "price":1258,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 6",
+  "price":8686,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 7",
+  "price":9254,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 8",
+  "price":1059,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 9",
+  "price":7145,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+},
+{
+  "productName":"Laptop 10",
+  "price":4101,
+  "rating":4.7,
+  "discount":63,
+  "availabiliy":"yes"
+}
+]
