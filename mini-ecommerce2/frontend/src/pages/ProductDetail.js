@@ -13,14 +13,6 @@ export default function ProductDetail({cartItems, setCartItems}) {
         .then( res => setProduct(res.product))
     },[])
 
-    function addToCart() {
-        const itemExist = cartItems.find((item) => item.product._id == product._id)
-        if (!itemExist) {
-            const newItem = {product, qty};
-            setCartItems((state) => [...state, newItem]);
-            toast.success("Cart Item added succesfully!")
-        }
-    }
 
     function increaseQty() {
         if (product.stock == qty) {
@@ -54,17 +46,6 @@ export default function ProductDetail({cartItems, setCartItems}) {
 
                         <p id="product_price" className='bg-info'>price: ${product.price}</p>
                         <p className='bg-warning'>discount: {product.discount}%</p>
-                        <div className="stockCounter d-inline">
-                            <span className="btn btn-danger minus" onClick={decreaseQty}>-</span>
-
-                            <input type="number" className="form-control count d-inline" value={qty} readOnly />
-
-                            <span className="btn btn-primary plus" onClick={increaseQty}>+</span>
-                        </div>
-                        <button type="button" onClick={addToCart} disabled={product.stock == 0}   id="cart_btn" className="btn btn-primary d-inline ml-4">Add to Cart</button>
-
-                        <hr />
-
                         <p className='bg-danger'>Status:{product.availabiliy}</p>
 
                         <hr />
